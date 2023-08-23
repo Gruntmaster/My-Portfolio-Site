@@ -1,4 +1,3 @@
-import Head from "next/head";
 import React from "react";
 import Projects from "./styles/components/Projects/projects";
 import Footer from "./styles/components/Footer/footer";
