@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./contact.module.css";
 import globalStyles from "@/app/utils.module.css";
 
-const Features: React.FC = () => {
+const Contact: React.FC = () => {
   return (
     <section id="contact" className={globalStyles.container}>
       <div className={globalStyles.section}>
@@ -28,4 +28,4 @@ const Features: React.FC = () => {
   );
 };
 
-export default Features;
+export default Contact;
