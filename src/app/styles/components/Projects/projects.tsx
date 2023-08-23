@@ -47,7 +47,10 @@ const Projects: React.FC = () => {
                   WordPressa, ale każdy zawsze zaczyna od czegoś
                 </p>
                 <div className={styles.work__project_btn}>
-                  <a className={globalStyles.btn} href="#">
+                  <a
+                    className={globalStyles.btn}
+                    href="https://first-practice-site.netlify.app"
+                  >
                     Witryna
                   </a>
                 </div>
@@ -83,7 +86,10 @@ const Projects: React.FC = () => {
                   stylów CSS oraz testowaniu funkcji TypeScriptu i Frameworków
                 </p>
                 <div className={styles.work__project_btn}>
-                  <a className={globalStyles.btn} href="#">
+                  <a
+                    className={globalStyles.btn}
+                    href="https://pracawokolicy-next-js.netlify.app"
+                  >
                     Witryna
                   </a>
                 </div>
