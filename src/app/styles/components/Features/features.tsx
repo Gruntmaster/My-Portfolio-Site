@@ -35,10 +35,9 @@ const Features: React.FC = () => {
           </a>
         </div>
         <p className={styles.featured__description}>
-          Cillum voluptate tempor cillum culpa cupidatat labore voluptate
-          ullamco voluptate culpa sunt nulla non. Ad cupidatat dolore quis amet
-          pariatur consectetur ullamco. Officia quis id velit duis cupidatat
-          sunt deserunt do aliquip nulla laboris.
+          Pracujemy nad tą witryną dla firmy tworzącej programy dla firm.
+          Wdrażają wiele różnych rozwiązań, a my chętnie pomagamy im w
+          projektowaniu przyszłej strony internetowej
         </p>
         <div className={styles.featured__info_container}>
           <div>
