@@ -28,7 +28,8 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     "src/app/src/utils/dark-mode.js",
-    "src/app/src/utils/lazy-loading.js"
+    "src/app/src/utils/lazy-loading.js",
+    "src/app/utils/mobile-nav.ts"
   ],
   "exclude": ["node_modules"]
 }
