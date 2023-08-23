@@ -23,11 +23,14 @@ const Projects: React.FC = () => {
             <h3 className={styles.work__project_title}>Wax Motif</h3>
             <div className={styles.work__img_wrapper}>
               <div className={styles.work__image1}>
-                <img
+                <Image
                   className={`my-element ${lazyLoadingClass}`}
                   src="https://via.placeholder.com/900"
                   data-src="/waxmoney.png"
                   alt="Wax Motif website"
+                  width={aspectRatioWidth} // Replace with the actual width value
+                  height={aspectRatioHeight} // Replace with the actual height value
+                  layout="responsive"
                 />
               </div>
             </div>
