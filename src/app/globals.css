@@ -39,7 +39,7 @@ html {
   scroll-behavior: smooth;
 }
 
-.light-mode {
+.light_mode {
   --clr-light: #070a13;
   --clr-dark: #f1f5f9;
   --clr-slate400: #1e293b;
