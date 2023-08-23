@@ -15,7 +15,7 @@ const About: React.FC = () => {
           <div className={styles.about__content}>
             <h2 className={styles.about__title}>O mnie</h2>
             <p className={styles.about__description}>
-              Witam! Jestem Andrii, a
+              Witam! Jestem Andrii,
               <strong> Frontend / Fullstack-Jamstack</strong> dla programistów
               internetowych we Wrocławiu. Budzę się rano, biorę filiżankę kawę,
               otwieram laptopa i próbuję stworzyć nowe rzeczy, które będą

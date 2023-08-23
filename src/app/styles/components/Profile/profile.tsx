@@ -19,14 +19,14 @@ const Profile: React.FC = () => {
           DEVELOPER
         </h1>
         <p className={styles.hero__description}>
-          A passionate <strong>Frontend / Fullstack-Jamstack</strong> web
-          developer and <strong>UI/UX</strong>
-          enthusiast specialized in building stunning pixel-perfect interactive
-          websites/applications
+          Zapalony <strong>Frontend / Fullstack</strong> junior/uczący się
+          programista i <strong>C#/Enova</strong> pasjonat pracy z różnymi
+          frameworkami językowymi do tworzenia pierwszych aplikacji do dowolnego
+          zadania
         </p>
         <div className={styles.hero__btn}>
           <a className={globalStyles.btn} href="#">
-            Reach out
+            Osiągnąć
           </a>
         </div>
       </div>

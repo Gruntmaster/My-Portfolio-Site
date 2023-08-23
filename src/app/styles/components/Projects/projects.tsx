@@ -20,50 +20,50 @@ const Projects: React.FC = () => {
           </p>
           <div className={styles.work__container}>
             {/* <!-- Project 1 --> */}
-            <h3 className={styles.work__project_title}>Wax Motif</h3>
+            <h3 className={styles.work__project_title}>Pierwsza witryna</h3>
             <div className={styles.work__img_wrapper}>
               <div className={styles.work__image1}>
                 <Image
                   className={`my-element ${lazyLoadingClass}`}
-                  src="https://via.placeholder.com/900"
-                  data-src="/waxmoney.png"
-                  alt="Wax Motif website"
+                  src="/second-site.png"
+                  alt="second site"
                   width={aspectRatioWidth} // Replace with the actual width value
                   height={aspectRatioHeight} // Replace with the actual height value
                   layout="responsive"
                 />
               </div>
             </div>
-
             <div className={styles.work__content1}>
               <div className={styles.work__project}>
-                <h3 className={styles.work__project_subtitle}>Wax Motif</h3>
+                <h3 className={styles.work__project_subtitle}>
+                  Pierwsza witryna
+                </h3>
                 <p className={styles.work__project_description1}>
-                  Labore magna ut non labore Lorem nisi culpa sint et quis sint.
-                  Enim pariatur deserunt do ad exercitation.
+                  Pierwsza próba umiejętności
                 </p>
                 <p className={styles.work__project_description2}>
-                  Ea ut non cupidatat consequat sint elit ipsum culpa dolor
-                  cillum commodo. Do esse excepteur cillum deserunt duis
-                  incididunt. Eu tempor ullamco aliqua consectetur incididunt
-                  anim dolor sunt laboris adipisicing cupidatat sint.
+                  Pierwsza napisana strona jest zawsze okropna, a niektóre z
+                  tych pustych miejsc zostały wygenerowane przy użyciu
+                  WordPressa, ale każdy zawsze zaczyna od czegoś
                 </p>
                 <div className={styles.work__project_btn}>
                   <a className={globalStyles.btn} href="#">
-                    Website
+                    Witryna
                   </a>
                 </div>
               </div>
             </div>
+
             {/* <!-- Project 2 --> */}
-            <h3 className={styles.work__project_title}>Draze Force</h3>
+            <h3 className={styles.work__project_title}>
+              Strona do testowania stylu
+            </h3>
             <div className={styles.work__img_wrapper}>
               <div className={styles.work__image2}>
                 <Image
                   className={`my-element ${lazyLoadingClass}`}
-                  src="https://via.placeholder.com/900"
-                  data-src="/drazeforce.png"
-                  alt="Draze Force website"
+                  src="/first-site.png"
+                  alt="second site"
                   width={aspectRatioWidth} // Replace with the actual width value
                   height={aspectRatioHeight} // Replace with the actual height value
                   layout="responsive"
@@ -72,25 +72,26 @@ const Projects: React.FC = () => {
             </div>
             <div className={styles.work__content2}>
               <div className={styles.work__project}>
-                <h3 className={styles.work__project_subtitle}>Wax Motif</h3>
+                <h3 className={styles.work__project_subtitle}>
+                  Strona testowa
+                </h3>
                 <p className={styles.work__project_description1}>
-                  Labore magna ut non labore Lorem nisi culpa sint et quis sint.
-                  Enim pariatur deserunt do ad exercitation.
+                  Testowaliśmy tutaj różne style i mechanikę TypeScript/JS
                 </p>
                 <p className={styles.work__project_description2}>
-                  Ea ut non cupidatat consequat sint elit ipsum culpa dolor
-                  cillum commodo. Do esse excepteur cillum deserunt duis
-                  incididunt. Eu tempor ullamco aliqua consectetur incididunt
-                  anim dolor sunt laboris adipisicing cupidatat sint.
+                  Platforma do testowania, napisana z myślą o udoskonalaniu
+                  stylów CSS oraz testowaniu funkcji TypeScriptu i Frameworków
                 </p>
                 <div className={styles.work__project_btn}>
                   <a className={globalStyles.btn} href="#">
-                    Website
+                    Witryna
                   </a>
                 </div>
               </div>
             </div>
+
             {/* <!-- Project 3 --> */}
+            {/*
             <h3 className={styles.work__project_title}>Artren</h3>
             <div className={styles.work__img_wrapper}>
               <div className={styles.work__image3}>
@@ -124,110 +125,7 @@ const Projects: React.FC = () => {
                 </div>
               </div>
             </div>
-            {/* <!-- Project 4 --> */}
-            <h3 className={styles.work__project_title}>Platform Pro</h3>
-            <div className={styles.work__img_wrapper}>
-              <div className={styles.work__image4}>
-                <Image
-                  className={`my-element ${lazyLoadingClass}`}
-                  src="https://via.placeholder.com/900"
-                  data-src="/platformpro.png"
-                  alt="Platform Pro website"
-                  width={aspectRatioWidth} // Replace with the actual width value
-                  height={aspectRatioHeight} // Replace with the actual height value
-                  layout="responsive"
-                />
-              </div>
-            </div>
-            <div className={styles.work__content4}>
-              <div className={styles.work__project}>
-                <h3 className={styles.work__project_subtitle}>Platform Pro</h3>
-                <p className={styles.work__project_description1}>
-                  Labore magna ut non labore Lorem nisi culpa sint et quis sint.
-                  Enim pariatur deserunt do ad exercitation.
-                </p>
-                <p className={styles.work__project_description2}>
-                  Ea ut non cupidatat consequat sint elit ipsum culpa dolor
-                  cillum commodo. Do esse excepteur cillum deserunt duis
-                  incididunt. Eu tempor ullamco aliqua consectetur incididunt
-                  anim dolor sunt laboris adipisicing cupidatat sint.
-                </p>
-                <div className={styles.work__project_btn}>
-                  <a className={globalStyles.btn} href="#">
-                    Website
-                  </a>
-                </div>
-              </div>
-            </div>
-            {/* <!-- Project 5 --> */}
-            <h3 className={styles.work__project_title}>Wallys Vegan</h3>
-            <div className={styles.work__img_wrapper}>
-              <div className={styles.work__image5}>
-                <Image
-                  className={`my-element ${lazyLoadingClass}`}
-                  src="https://via.placeholder.com/900"
-                  data-src="/wallysvegan.png"
-                  alt="Wallys Vegan website"
-                  width={aspectRatioWidth} // Replace with the actual width value
-                  height={aspectRatioHeight} // Replace with the actual height value
-                  layout="responsive"
-                />
-              </div>
-            </div>
-            <div className={styles.work__content5}>
-              <div className={styles.work__project}>
-                <h3 className={styles.work__project_subtitle}>Wallys Vegan</h3>
-                <p className={styles.work__project_description1}>
-                  Sunt sint labore officia irure. Dolore pariatur nisi deserunt
-                  sunt exercitation excepteur do reprehenderit fugiat Lorem sint
-                  ut.
-                </p>
-                <p className={styles.work__project_description2}>
-                  Mollit ipsum mollit magna occaecat eiusmod sint fugiat est non
-                  adipisicing esse fugiat deserunt minim. Enim occaecat velit eu
-                  non amet nostrud officia duis.
-                </p>
-                <div className={styles.work__project_btn}>
-                  <a className={globalStyles.btn} href="#">
-                    Website
-                  </a>
-                </div>
-              </div>
-            </div>
-            {/* <!-- Project 6 --> */}
-            <h3 className={styles.work__project_title}>Old Portfolio</h3>
-            <div className={styles.work__img_wrapper}>
-              <div className={styles.work__image6}>
-                <Image
-                  className={`my-element ${lazyLoadingClass}`}
-                  src="https://via.placeholder.com/900"
-                  data-src="/portfolio.png"
-                  alt="Portfolio website"
-                  width={aspectRatioWidth} // Replace with the actual width value
-                  height={aspectRatioHeight} // Replace with the actual height value
-                  layout="responsive"
-                />
-              </div>
-            </div>
-            <div className={styles.work__content6}>
-              <div className={styles.work__project}>
-                <h3 className={styles.work__project_subtitle}>Old Portfolio</h3>
-                <p className={styles.work__project_description1}>
-                  Aliquip eu ad est reprehenderit veniam irure exercitation in
-                  velit enim ipsum.
-                </p>
-                <p className={styles.work__project_description2}>
-                  Elit est amet quis incididunt officia velit eiusmod do amet.
-                  Sint non qui nulla sit ex cillum non pariatur velit proident
-                  ut aliqua fugiat incididunt id minim.
-                </p>
-                <div className={styles.work__project_btn}>
-                  <a className={globalStyles.btn} href="#">
-                    Website
-                  </a>
-                </div>
-              </div>
-            </div>
+            */}
           </div>
         </div>
       </div>
