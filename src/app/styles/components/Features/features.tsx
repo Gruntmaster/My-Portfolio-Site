@@ -11,9 +11,9 @@ const Features: React.FC = () => {
   return (
     <section id="featured" className={globalStyles.section}>
       <div className={globalStyles.container}>
-        <h3 className={styles.featured__subtitle}>Featured project</h3>
+        <h3 className={styles.featured__subtitle}>Wyróżniony projekt</h3>
         <div className={styles.featured__wrapper}>
-          <h2 className={styles.featured__title}>Slaying The Dragon</h2>
+          <h2 className={styles.featured__title}>Market idea</h2>
           <a
             aria-label="link featured projects"
             className={styles.featured__link}
@@ -44,13 +44,11 @@ const Features: React.FC = () => {
           <div>
             <h3 className={styles.featured__label}>Tech stack</h3>
             <ul className={styles.featured__tech_stack}>
-              <li className={styles.featured__info}>TailwindCSS</li>
               <li className={styles.featured__info}>ReactJS</li>
               <li className={styles.featured__info}>React-hook-form</li>
               <li className={styles.featured__info}>NextJS</li>
-              <li className={styles.featured__info}>Axios</li>
-              <li className={styles.featured__info}>Supabase</li>
-              <li className={styles.featured__info}>Stripe</li>
+              <li className={styles.featured__info}>Typescript</li>
+              <li className={styles.featured__info}>CSS</li>
             </ul>
           </div>
           <div>
@@ -59,16 +57,15 @@ const Features: React.FC = () => {
           </div>
           <div>
             <h3 className={styles.featured__label}>Timeline</h3>
-            <p className={styles.featured__info}>December 2022 - present</p>
+            <p className={styles.featured__info}>Sierpien 2023 - obecny</p>
           </div>
         </div>
         <div className={styles.featured__img_container}>
           <div className={styles.featured__img_wrapper}>
             <Image
               className={`my-element ${lazyLoadingClass}`}
-              src="https://via.placeholder.com/1920x968"
-              data-src="/slayingthedragon.png"
-              alt="Slaying The Dragon hero"
+              src="/market-idea1.png"
+              alt="Market idea"
               width={aspectRatioWidth}
               height={aspectRatioHeight}
               layout="responsive"
@@ -77,9 +74,8 @@ const Features: React.FC = () => {
           <div className={styles.featured__img_wrapper}>
             <Image
               className={`my-element ${lazyLoadingClass}`}
-              src="https://via.placeholder.com/1920x968"
-              data-src="/courses.png"
-              alt="Slaying The Dragon courses"
+              src="/market-idea2.png"
+              alt="Market idea"
               width={aspectRatioWidth}
               height={aspectRatioHeight}
               layout="responsive"
@@ -88,9 +84,8 @@ const Features: React.FC = () => {
           <div className={styles.featured__img_wrapper}>
             <Image
               className={`my-element ${lazyLoadingClass}`}
-              src="https://via.placeholder.com/1920x968"
-              data-src="/pricing.png"
-              alt="Slaying The Dragon pricing"
+              src="/market-idea3.png"
+              alt="Market idea"
               width={aspectRatioWidth}
               height={aspectRatioHeight}
               layout="responsive"
@@ -99,9 +94,8 @@ const Features: React.FC = () => {
           <div className={styles.featured__img_wrapper}>
             <Image
               className={`my-element ${lazyLoadingClass}`}
-              src="https://via.placeholder.com/1920x968"
-              data-src="/features.png"
-              alt="Slaying The Dragon features"
+              src="/market-idea4.png"
+              alt="Market idea"
               width={aspectRatioWidth}
               height={aspectRatioHeight}
               layout="responsive"
@@ -110,9 +104,8 @@ const Features: React.FC = () => {
           <div className={styles.featured__img_wrapper}>
             <Image
               className={`my-element ${lazyLoadingClass}`}
-              src="https://via.placeholder.com/1920x968"
-              data-src="/faq.png"
-              alt="Slaying The Dragon faqs"
+              src="/market-idea5.png"
+              alt="Market idea"
               width={aspectRatioWidth}
               height={aspectRatioHeight}
               layout="responsive"
@@ -121,9 +114,8 @@ const Features: React.FC = () => {
           <div className={styles.featured__img_wrapper}>
             <Image
               className={`my-element ${lazyLoadingClass}`}
-              src="https://via.placeholder.com/1920x968"
-              data-src="/blog.png"
-              alt="Slaying The Dragon blog"
+              src="/market-idea8.png"
+              alt="Market idea"
               width={aspectRatioWidth}
               height={aspectRatioHeight}
               layout="responsive"
@@ -132,9 +124,8 @@ const Features: React.FC = () => {
           <div className={styles.featured__img_wrapper}>
             <Image
               className={`my-element ${lazyLoadingClass}`}
-              src="https://via.placeholder.com/1920x968"
-              data-src="/signin.png"
-              alt="Slaying The Dragon sign-in"
+              src="/market-idea6.png"
+              alt="Market idea"
               width={aspectRatioWidth}
               height={aspectRatioHeight}
               layout="responsive"
@@ -143,9 +134,8 @@ const Features: React.FC = () => {
           <div className={styles.featured__img_wrapper}>
             <Image
               className={`my-element ${lazyLoadingClass}`}
-              src="https://via.placeholder.com/1920x968"
-              data-src="/app.png"
-              alt="Slaying The Dragon dashboard"
+              src="/market-idea7.png"
+              alt="Market idea"
               width={aspectRatioWidth}
               height={aspectRatioHeight}
               layout="responsive"

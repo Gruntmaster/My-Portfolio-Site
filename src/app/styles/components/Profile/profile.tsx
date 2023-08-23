@@ -8,7 +8,7 @@ const Profile: React.FC = () => {
       <div className={styles.hero}>
         <img
           className={styles.hero__img}
-          src="/memface.jpg"
+          src="/profile.jpg"
           alt="Profile picture"
         />
         <h2 className={styles.hero__subtitle}>
@@ -16,13 +16,13 @@ const Profile: React.FC = () => {
         </h2>
         <h1 className={styles.hero__title}>
           Junior FRONT-END <br />
-          DEVELOPER.
+          DEVELOPER
         </h1>
         <p className={styles.hero__description}>
           A passionate <strong>Frontend / Fullstack-Jamstack</strong> web
           developer and <strong>UI/UX</strong>
           enthusiast specialized in building stunning pixel-perfect interactive
-          websites/applications.
+          websites/applications
         </p>
         <div className={styles.hero__btn}>
           <a className={globalStyles.btn} href="#">

@@ -16,17 +16,17 @@ const Header: React.FC = () => {
           <ul className={styles.header__menu}>
             <li>
               <a className={styles.header__link} href="#about">
-                About
+                O mnie
               </a>
             </li>
             <li>
               <a className={styles.header__link} href="#featured">
-                Work
+                Praca
               </a>
             </li>
             <li>
               <a className={styles.header__link} href="#contact">
-                Contact
+                Kontakt
               </a>
             </li>
             <li className={styles.header__line}></li>

@@ -12,11 +12,11 @@ const Projects: React.FC = () => {
     <section className={styles.work}>
       <div className={globalStyles.container}>
         <div className={globalStyles.section}>
-          <h2 className={styles.work__title}>Projects</h2>
+          <h2 className={styles.work__title}>Projekty</h2>
           <p className={styles.work__description}>
-            Mollit pariatur tempor nisi dolor non consequat magna cupidatat
-            reprehenderit. Aliquip excepteur ullamco aliquip magna est et
-            commodo deserunt ipsum.
+            W tej sekcji napiszę krótko o moich projektach, praktykach, własnych
+            aplikacjach, które zostały wykonane lub będą lub są w fazie
+            realizacji, więc nie mogę ich jeszcze pokazać
           </p>
           <div className={styles.work__container}>
             {/* <!-- Project 1 --> */}
