@@ -69,8 +69,8 @@ const Features: React.FC = () => {
               src="https://via.placeholder.com/1920x968"
               data-src="/slayingthedragon.png"
               alt="Slaying The Dragon hero"
-              width={aspectRatioWidth} // Replace with the actual width value
-              height={aspectRatioHeight} // Replace with the actual height value
+              width={aspectRatioWidth}
+              height={aspectRatioHeight}
               layout="responsive"
             />
           </div>
@@ -80,8 +80,8 @@ const Features: React.FC = () => {
               src="https://via.placeholder.com/1920x968"
               data-src="/courses.png"
               alt="Slaying The Dragon courses"
-              width={aspectRatioWidth} // Replace with the actual width value
-              height={aspectRatioHeight} // Replace with the actual height value
+              width={aspectRatioWidth}
+              height={aspectRatioHeight}
               layout="responsive"
             />
           </div>
@@ -91,8 +91,8 @@ const Features: React.FC = () => {
               src="https://via.placeholder.com/1920x968"
               data-src="/pricing.png"
               alt="Slaying The Dragon pricing"
-              width={aspectRatioWidth} // Replace with the actual width value
-              height={aspectRatioHeight} // Replace with the actual height value
+              width={aspectRatioWidth}
+              height={aspectRatioHeight}
               layout="responsive"
             />
           </div>
@@ -102,8 +102,8 @@ const Features: React.FC = () => {
               src="https://via.placeholder.com/1920x968"
               data-src="/features.png"
               alt="Slaying The Dragon features"
-              width={aspectRatioWidth} // Replace with the actual width value
-              height={aspectRatioHeight} // Replace with the actual height value
+              width={aspectRatioWidth}
+              height={aspectRatioHeight}
               layout="responsive"
             />
           </div>
@@ -113,8 +113,8 @@ const Features: React.FC = () => {
               src="https://via.placeholder.com/1920x968"
               data-src="/faq.png"
               alt="Slaying The Dragon faqs"
-              width={aspectRatioWidth} // Replace with the actual width value
-              height={aspectRatioHeight} // Replace with the actual height value
+              width={aspectRatioWidth}
+              height={aspectRatioHeight}
               layout="responsive"
             />
           </div>
@@ -124,8 +124,8 @@ const Features: React.FC = () => {
               src="https://via.placeholder.com/1920x968"
               data-src="/blog.png"
               alt="Slaying The Dragon blog"
-              width={aspectRatioWidth} // Replace with the actual width value
-              height={aspectRatioHeight} // Replace with the actual height value
+              width={aspectRatioWidth}
+              height={aspectRatioHeight}
               layout="responsive"
             />
           </div>
@@ -135,8 +135,8 @@ const Features: React.FC = () => {
               src="https://via.placeholder.com/1920x968"
               data-src="/signin.png"
               alt="Slaying The Dragon sign-in"
-              width={aspectRatioWidth} // Replace with the actual width value
-              height={aspectRatioHeight} // Replace with the actual height value
+              width={aspectRatioWidth}
+              height={aspectRatioHeight}
               layout="responsive"
             />
           </div>
@@ -146,8 +146,8 @@ const Features: React.FC = () => {
               src="https://via.placeholder.com/1920x968"
               data-src="/app.png"
               alt="Slaying The Dragon dashboard"
-              width={aspectRatioWidth} // Replace with the actual width value
-              height={aspectRatioHeight} // Replace with the actual height value
+              width={aspectRatioWidth}
+              height={aspectRatioHeight}
               layout="responsive"
             />
           </div>

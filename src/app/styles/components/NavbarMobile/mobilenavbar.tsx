@@ -1,31 +1,33 @@
 import React from "react";
+import styles from "./mobilenavbar.module.css";
+import globalStyles from "@/app/utils.module.css";
 
 const MobileNavBar: React.FC = () => {
   return (
-    <div className="mobile-nav">
+    <div className={styles.mobile_nav}>
       <nav>
-        <ul className="mobile-nav__menu">
+        <ul className={styles.mobile_nav__menu}>
           <li>
-            <a className="mobile-nav__link" href="#about">
+            <a className={styles.mobile_nav__link} href="#about">
               About
             </a>
           </li>
           <li>
-            <a className="mobile-nav__link" href="#featured">
+            <a className={styles.mobile_nav__link} href="#featured">
               Work
             </a>
           </li>
           <li>
-            <a className="mobile-nav__link" href="#contact">
+            <a className={styles.mobile_nav__link} href="#contact">
               Contact
             </a>
           </li>
-          <li className="mobile-nav__link-line"></li>
+          <li className={styles.mobile_nav__link_line}></li>
           <li>
             <button
               aria-label="theme-toggle btn"
               id="theme-toggle"
-              className="mobile-nav__sun"
+              className={styles.mobile_nav__sun}
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -37,7 +39,8 @@ const MobileNavBar: React.FC = () => {
             </button>
           </li>
           <li>
-            <a className="mobile-nav__btn btn" href="#">
+            <div className={globalStyles.btn}></div>
+            <a className={styles.mobile_nav__btn} href="#">
               Resume
             </a>
           </li>
