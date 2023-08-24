@@ -11,7 +11,7 @@ const Features: React.FC = () => {
   return (
     <section id="featured" className={globalStyles.section}>
       <div className={globalStyles.container}>
-        <h3 className={styles.featured__subtitle}>Wyróżniony projekt</h3>
+        <h3 className={styles.featured__subtitle}>Featured Project</h3>
         <div className={styles.featured__wrapper}>
           <h2 className={styles.featured__title}>Market idea</h2>
           <a
@@ -35,9 +35,9 @@ const Features: React.FC = () => {
           </a>
         </div>
         <p className={styles.featured__description}>
-          Pracujemy nad tą witryną dla firmy tworzącej programy dla firm.
-          Wdrażają wiele różnych rozwiązań, a my chętnie pomagamy im w
-          projektowaniu przyszłej strony internetowej
+          We are working on this site for a business software company. They
+          implement many different solutions for businesses, and we are happy to
+          help them designing their future website
         </p>
         <div className={styles.featured__info_container}>
           <div>
@@ -52,11 +52,11 @@ const Features: React.FC = () => {
           </div>
           <div>
             <h3 className={styles.featured__label}>Project type</h3>
-            <p className={styles.featured__info}>Fullstack-Jamstack</p>
+            <p className={styles.featured__info}>Fullstack</p>
           </div>
           <div>
             <h3 className={styles.featured__label}>Timeline</h3>
-            <p className={styles.featured__info}>Sierpien 2023 - obecny</p>
+            <p className={styles.featured__info}>August 2023 - current</p>
           </div>
         </div>
         <div className={styles.featured__img_container}>

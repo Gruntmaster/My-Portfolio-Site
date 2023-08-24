@@ -23,6 +23,14 @@
   font-size: var(--size-sm);
 }
 
+.about__ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding-right: 3em;
+  flex: 1;
+}
+
 /* xs */
 @media (min-width: 475px) {
   .contact {

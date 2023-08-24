@@ -13,30 +13,28 @@ const About: React.FC = () => {
       <div className={globalStyles.container}>
         <div className={styles.about}>
           <div className={styles.about__content}>
-            <h2 className={styles.about__title}>O mnie</h2>
+            <h2 className={styles.about__title}>About</h2>
             <p className={styles.about__description}>
-              Witam! Jestem Andrii,
-              <strong> Frontend / Fullstack-Jamstack</strong> dla programistów
-              internetowych we Wrocławiu. Budzę się rano, biorę filiżankę kawę,
-              otwieram laptopa i próbuję stworzyć nowe rzeczy, które będą
-              transmitowane na żywo w Internecie na zawsze. Każdego dnia po
-              pracy próbuję nauczyć się czegoś nowego.
+              Hello! I am Andrii, a<strong> Frontend / Fullstack</strong>{" "}
+              developer. I wake up in the morning, take a cup of coffee, open my
+              laptop and try to create new things that will live in the internet
+              forever. Every day after work I am trying to learn something new.
             </p>
             <p className={styles.about__description}>
-              Ludzie, którzy mnie znają, mówią, że mam obsesję, to sprawiedliwe,
-              jestem bardzo zdeterminowany i uwielbiam uczyć się nowych rzeczy.
-              A programowanie jest najbardziej ekscytujące w moim życiu, nawet
-              jeśli czasami jest trudne.
+              People who know me say I'm obsessed, it's fair I am very
+              determined and love to learn new things. And programming is the
+              most exciting one in my life, even if it's hard sometimes.
             </p>
             <p className={styles.about__description}>
-              Zacząłem programować, gdy przyjaciel polecił mi spróbować. Powiem
-              szczerze, że było to bolesne, ale teraz, gdy czas minął,
-              zrozumiałem, że to wspaniała sfera, w której można się rozwijać,
-              ponieważ ekscytujące jest obserwowanie i bycie na krawędzi postępu
-              technologicznego.
+              I started programming when a friend recommended me to give it a
+              try. I will tell honestly it was painful but now when time has
+              passed it is more and more pleasant, I understood that this is a
+              wonderful sphere in which you can develop, because it's exciting
+              to watch how your application help people each day and also be on
+              the edge of technological progress.
             </p>
             <hr className={styles.about__hr} />
-            <h3 className={styles.about__subtitle}>Technologii</h3>
+            <h3 className={styles.about__subtitle}>Technologies</h3>
             <div className={styles.about__ul_container}>
               <ul className={styles.about__ul}>
                 <li className={styles.about__list}>JavaScript(ES6+)</li>

@@ -11,22 +11,19 @@ const Profile: React.FC = () => {
           src="/profile.jpg"
           alt="Profile picture"
         />
-        <h2 className={styles.hero__subtitle}>
-          Dzień dobry, Jestem Andrii Horlanov 👋
-        </h2>
+        <h2 className={styles.hero__subtitle}>Hi, I am Andrii Horlanov 👋</h2>
         <h1 className={styles.hero__title}>
           Junior FRONT-END <br />
           DEVELOPER
         </h1>
         <p className={styles.hero__description}>
-          Zapalony <strong>Frontend / Fullstack</strong> junior/uczący się
-          programista i <strong>C#/Enova</strong> pasjonat pracy z różnymi
-          frameworkami językowymi do tworzenia pierwszych aplikacji do dowolnego
-          zadania
+          A passionate <strong>Frontend / Fullstack</strong> web developer and{" "}
+          <strong>C#/enova 365</strong> enthusiast working with various language
+          frameworks to create the first applications for any tasks
         </p>
         <div className={styles.hero__btn}>
           <a className={globalStyles.btn} href="#">
-            Osiągnąć
+            Reach out
           </a>
         </div>
       </div>
