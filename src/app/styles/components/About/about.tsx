@@ -15,21 +15,21 @@ const About: React.FC = () => {
           <div className={styles.about__content}>
             <h2 className={styles.about__title}>About</h2>
             <p className={styles.about__description}>
-              Hello! I am Andrii, a<strong> Frontend / Fullstack</strong>{" "}
+              Hello! I am Andrii, a<strong> Frontend / Fullstack</strong>
               developer. I wake up in the morning, take a cup of coffee, open my
               laptop and try to create new things that will live in the internet
               forever. Every day after work I am trying to learn something new.
             </p>
             <p className={styles.about__description}>
-              People who know me say I'm obsessed, it's fair I am very
+              People who know me say I am obsessed, it is fair I am very
               determined and love to learn new things. And programming is the
-              most exciting one in my life, even if it's hard sometimes.
+              most exciting one in my life, even if it is hard sometimes.
             </p>
             <p className={styles.about__description}>
               I started programming when a friend recommended me to give it a
               try. I will tell honestly it was painful but now when time has
               passed it is more and more pleasant, I understood that this is a
-              wonderful sphere in which you can develop, because it's exciting
+              wonderful sphere in which you can develop, because it is exciting
               to watch how your application help people each day and also be on
               the edge of technological progress.
             </p>
