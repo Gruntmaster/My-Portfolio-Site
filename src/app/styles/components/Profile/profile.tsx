@@ -13,7 +13,7 @@ const Profile: React.FC = () => {
         />
         <h2 className={styles.hero__subtitle}>Hi, I am Andrii Horlanov 👋</h2>
         <h1 className={styles.hero__title}>
-          Junior FRONT-END <br />
+          Passionate FRONT-END <br />
           DEVELOPER
         </h1>
         <p className={styles.hero__description}>
