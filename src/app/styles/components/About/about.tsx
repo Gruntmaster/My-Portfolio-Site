@@ -15,10 +15,11 @@ const About: React.FC = () => {
           <div className={styles.about__content}>
             <h2 className={styles.about__title}>About</h2>
             <p className={styles.about__description}>
-              Hello! I am Andrii, a<strong> Frontend / Fullstack</strong>
-              developer. I wake up in the morning, take a cup of coffee, open my
-              laptop and try to create new things that will live in the internet
-              forever. Every day after work I am trying to learn something new.
+              Hello! I am Andrii, a&nbsp;<strong> Frontend / Fullstack</strong>
+              &nbsp;developer. I wake up in the morning, take a cup of coffee,
+              open my laptop and try to create new things that will live in the
+              internet forever. Every day after work I am trying to learn
+              something new.
             </p>
             <p className={styles.about__description}>
               People who know me say I am obsessed, it is fair I am very
@@ -55,8 +56,8 @@ const About: React.FC = () => {
               </ul>
               <ul className={styles.about__ul}>
                 <li className={styles.about__list}>MSSQL</li>
-                <li className={styles.about__list}>Postman</li>
-                <li className={styles.about__list}>Docker</li>
+                <li className={styles.about__list}>Postman/Docker</li>
+                <li className={styles.about__list}>enova/enova365</li>
               </ul>
             </div>
           </div>

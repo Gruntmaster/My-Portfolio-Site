@@ -47,7 +47,7 @@ const Projects: React.FC = () => {
                 <div className={styles.work__project_btn}>
                   <a
                     className={globalStyles.btn}
-                    href="https://first-practice-site.netlify.app"
+                    href="https://pracawokolicy-next-js.netlify.app"
                   >
                     Site
                   </a>
@@ -75,7 +75,7 @@ const Projects: React.FC = () => {
                   Style test site
                 </h3>
                 <p className={styles.work__project_description1}>
-                  We tested different TypeScript/JS scripts and CSS styles for
+                  Tested different TypeScript/JS scripts and CSS styles for
                   better understanding
                 </p>
                 <p className={styles.work__project_description2}>
@@ -87,7 +87,7 @@ const Projects: React.FC = () => {
                 <div className={styles.work__project_btn}>
                   <a
                     className={globalStyles.btn}
-                    href="https://pracawokolicy-next-js.netlify.app"
+                    href="https://first-practice-site.netlify.app"
                   >
                     Site
                   </a>
@@ -96,13 +96,13 @@ const Projects: React.FC = () => {
             </div>
 
             {/* <!-- Project 3 --> */}
-            {/*
-            <h3 className={styles.work__project_title}>Artren</h3>
+
+            <h3 className={styles.work__project_title}>Żabka spreadsheets</h3>
             <div className={styles.work__img_wrapper}>
               <div className={styles.work__image3}>
                 <Image
                   className={`my-element ${lazyLoadingClass}`}
-                  src="https://via.placeholder.com/900"
+                  src="/Zabka 2 900.png"
                   data-src="/artren.png"
                   alt="Artren website"
                   width={aspectRatioWidth} // Replace with the actual width value
@@ -113,24 +113,21 @@ const Projects: React.FC = () => {
             </div>
             <div className={styles.work__content3}>
               <div className={styles.work__project}>
-                <h3 className={styles.work__project_subtitle}>Artren</h3>
+                <h3 className={styles.work__project_subtitle}>
+                  Tables with working hours for Żabka shops
+                </h3>
                 <p className={styles.work__project_description1}>
-                  Aliquip eu ad est reprehenderit veniam irure exercitation in
-                  velit enim ipsum.
+                  Hosted working spreadsheets on remote server
                 </p>
                 <p className={styles.work__project_description2}>
-                  Elit est amet quis incididunt officia velit eiusmod do amet.
-                  Sint non qui nulla sit ex cillum non pariatur velit proident
-                  ut aliqua fugiat incididunt id minim.
+                  The task was to make online work spreadsheets for workers in
+                  Żabka shops in order to optimize blanks filling for shifts and
+                  make them better and faster. Besides it is much better to have
+                  everything on server then to look for infinity amount of
+                  papers.
                 </p>
-                <div className={styles.work__project_btn}>
-                  <a className={globalStyles.btn} href="#">
-                    Website
-                  </a>
-                </div>
               </div>
             </div>
-            */}
           </div>
         </div>
       </div>
