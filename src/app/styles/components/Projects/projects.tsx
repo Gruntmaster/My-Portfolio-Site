@@ -102,7 +102,7 @@ const Projects: React.FC = () => {
               <div className={styles.work__image3}>
                 <Image
                   className={`my-element ${lazyLoadingClass}`}
-                  src="/Zabka 2 900.png"
+                  src="/Zabka.png"
                   data-src="/artren.png"
                   alt="Artren website"
                   width={aspectRatioWidth} // Replace with the actual width value
