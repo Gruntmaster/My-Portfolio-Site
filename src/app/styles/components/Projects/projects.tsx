@@ -96,7 +96,6 @@ const Projects: React.FC = () => {
             </div>
 
             {/* <!-- Project 3 --> */}
-
             <h3 className={styles.work__project_title}>Żabka spreadsheets</h3>
             <div className={styles.work__img_wrapper}>
               <div className={styles.work__image3}>
@@ -126,6 +125,46 @@ const Projects: React.FC = () => {
                   everything on server then to look for infinity amount of
                   papers.
                 </p>
+              </div>
+            </div>
+
+            {/* <!-- Project 3 --> */}
+            <h3 className={styles.work__project_title}>Żabka spreadsheets</h3>
+            <div className={styles.work__img_wrapper}>
+              <div className={styles.work__image4}>
+                <Image
+                  className={`my-element ${lazyLoadingClass}`}
+                  src="/Hack4law_app900x900.png"
+                  data-src="/Hack4law_app900x900.png"
+                  alt="Hack website"
+                  width={aspectRatioWidth} // Replace with the actual width value
+                  height={aspectRatioHeight} // Replace with the actual height value
+                  layout="responsive"
+                />
+              </div>
+            </div>
+            <div className={styles.work__content4}>
+              <div className={styles.work__project}>
+                <h3 className={styles.work__project_subtitle}>
+                  GDPR Risk Extractor Hack4Law edycja III - 22.10.2023
+                </h3>
+                <p className={styles.work__project_description1}>
+                  The product is addressed mainly to lawyers different
+                  positions, doing different things law sphere.
+                </p>
+                <p className={styles.work__project_description2}>
+                  This is beta version of the application together this app can
+                  be useful for the LegalTech community in Poland and users of
+                  applications such as Lex ODO and RiskTracker.
+                </p>
+                <div className={styles.work__project_btn}>
+                  <a
+                    className={globalStyles.btn}
+                    href="https://youtu.be/CTWZ5ooZ_6w?si=MOtVIR6q3wy5E4XY"
+                  >
+                    Video
+                  </a>
+                </div>
               </div>
             </div>
           </div>
