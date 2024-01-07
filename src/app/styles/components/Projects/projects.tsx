@@ -63,7 +63,7 @@ const Projects: React.FC = () => {
               <div className={styles.work__image2}>
                 <Image
                   className={`my-element ${lazyLoadingClass}`}
-                  src="/first-site.png"
+                  src="/3d-project-x900.png"
                   alt="second site"
                   width={aspectRatioWidth} // Replace with the actual width value
                   height={aspectRatioHeight} // Replace with the actual height value
@@ -74,22 +74,19 @@ const Projects: React.FC = () => {
             <div className={styles.work__content2}>
               <div className={styles.work__project}>
                 <h3 className={styles.work__project_subtitle}>
-                  Style test site
+                  3D experiment project
                 </h3>
                 <p className={styles.work__project_description1}>
-                  Tested different TypeScript/JS scripts and CSS styles for
-                  better understanding
+                  My ever first 3D project
                 </p>
                 <p className={styles.work__project_description2}>
-                  A testing platform, written with improvement in mind CSS
-                  styles and testing TypeScript functions with different
-                  Frameworks. Useful because I got here my first Next.js
-                  impression and experience.
+                  3D project where I tried interesting features for React/Js
+                  app.
                 </p>
                 <div className={styles.work__project_btn}>
                   <a
                     className={globalStyles.btn}
-                    href="https://first-practice-site.netlify.app"
+                    href="https://3d-project-experiment.netlify.app"
                   >
                     Site
                   </a>
